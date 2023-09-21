@@ -1,0 +1,12 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+  }
+  h1 {
+    color: #afb0c0;
+    background-color: #00008f;
+  }
+  h2 {
+    color: #070707;
+    margin-left: 40px;
+    border-bottom: 4px dotted black;
+  }
