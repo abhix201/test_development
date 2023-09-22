@@ -1,9 +1,28 @@
+
+
 body {
+    background-color: #afb0c0;
     font-family: Verdana, Arial, sans-serif;
   }
   h1 {
     color: #afb0c0;
     background-color: #00008f;
+  }
+  h1:hover{
+    color: #00ccc2;
+    background-color: #000;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  h1.clicked{
+    color: navy;
+    background-color: lightgray;
+  }
+  h1.node{
+    font-family : monospace;
   }
   h2 {
     color: #070707;
